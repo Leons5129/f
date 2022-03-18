@@ -28,7 +28,7 @@ time.sleep(1)
 print("\033[31m━━━Threads")	
 threads = int(input("┗━━━━━━>\033[0m:"))
 def udp():
-  data = random._urandom(1490)
+  data = random._urandom(1050)
   i = random.choice(("[•]","[•]","[•]"))
   while True:
     try:
